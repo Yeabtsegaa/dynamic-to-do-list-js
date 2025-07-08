@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded" , function event(){
         if(!taskText ){
             alert("please add a task")
         }
-        
-           const  li = document.createElement("li")
+        else {
+             const  li = document.createElement("li")
                 li.textContent = taskText;
 
             let  remove = document.createElement("button")
@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded" , function event(){
         
         
     }
+        }
+          
     
 
     addButton.addEventListener("click" , addTask)
