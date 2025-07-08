@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded" , function event(){
 
         
 
-        if(!taskText ){
+        if(taskText == "" ){
             alert("please add a task")
         }
         else {
